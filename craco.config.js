@@ -1,10 +1,9 @@
 const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
 
 const port = process.env.BLOCKLET_PORT || process.env.PORT || 3000;
-
 const whenDev = process.env.NODE_ENV === 'development';
-
 const mountPoint = process.env.BLOCKLET_DEV_MOUNT_POINT || '';
+
 const plugins = [new NodePolyfillPlugin({ excludeAliases: ['console'] })];
 
 const webpackConfig = whenDev
