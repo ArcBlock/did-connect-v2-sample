@@ -1,10 +1,11 @@
 import { useState } from 'react';
 import { Connect, Button } from '@did-connect/react';
+import useLocalStorage from 'react-use/lib/useLocalStorage';
 
 function Home() {
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState('Continue with');
-  const [connectedUser, setConnectedUser] = useState(null);
+  const [connectedUser, setConnectedUser] = useLocalStorage('connectedUser', null);
   const handleClose = () => {
     setOpen(false);
   };
@@ -25,9 +26,12 @@ function Home() {
         </Button>
       )}
       {connectedUser && (
-        <p style={{ textAlign: 'left' }}>
+        <div style={{ textAlign: 'left' }}>
           Connected: <pre>{JSON.stringify(connectedUser, null, 2)}</pre>
-        </p>
+          <button type="button" onClick={() => setConnectedUser(null)}>
+            Switch User
+          </button>
+        </div>
       )}
       <Connect
         popup
