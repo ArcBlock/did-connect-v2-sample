@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Connect, Button } from '@did-connect/react';
 
 function Home() {
@@ -20,10 +19,16 @@ function Home() {
 
   return (
     <header className="app-header">
-      <Button type="button" variant="contained" size="large" onClick={() => setOpen(true)}>
-        {message}
-      </Button>
-      {connectedUser && <p>DID: {connectedUser.userDid}</p>}
+      {!connectedUser && (
+        <Button type="button" variant="contained" size="large" onClick={() => setOpen(true)}>
+          {message}
+        </Button>
+      )}
+      {connectedUser && (
+        <p style={{ textAlign: 'left' }}>
+          Connected: <pre>{JSON.stringify(connectedUser, null, 2)}</pre>
+        </p>
+      )}
       <Connect
         popup
         open={open}
@@ -40,13 +45,6 @@ function Home() {
         }}
         relayUrl="/.well-known/service/api/connect/relay"
       />
-      <p>&nbsp;</p>
-      <Link className="app-link" to="/about">
-        About
-      </Link>
-      <a className="app-link" href="https://docs.arcblock.io/abtnode/" target="_blank" rel="noopener noreferrer">
-        Learn Blocklet
-      </a>
     </header>
   );
 }
