@@ -4,4 +4,7 @@ module.exports = {
   globals: {
     logger: true,
   },
+  rules: {
+    'no-console': 'off',
+  },
 };

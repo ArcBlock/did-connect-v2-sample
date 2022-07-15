@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { ThemeProvider } from '@did-connect/react';
 
 import './app.css';
 import Home from './pages/home';
@@ -22,8 +23,10 @@ export default function WrappedApp() {
   const basename = window?.blocklet?.prefix || '/';
 
   return (
-    <Router basename={basename}>
-      <App />
-    </Router>
+    <ThemeProvider>
+      <Router basename={basename}>
+        <App />
+      </Router>
+    </ThemeProvider>
   );
 }
