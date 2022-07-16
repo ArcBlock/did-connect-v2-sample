@@ -4,7 +4,6 @@ import useLocalStorage from 'react-use/lib/useLocalStorage';
 
 function Home() {
   const [open, setOpen] = useState(false);
-  const [message, setMessage] = useState('Continue with');
   const [connectedUser, setConnectedUser] = useLocalStorage('connectedUser', null);
   const handleClose = () => {
     setOpen(false);
@@ -13,7 +12,6 @@ function Home() {
     console.log('onApprove', ctx, e);
   };
   const handleComplete = (ctx) => {
-    setMessage('You are now connected');
     setConnectedUser(ctx.currentConnected);
     setOpen(false);
   };
@@ -22,7 +20,7 @@ function Home() {
     <header className="app-header">
       {!connectedUser && (
         <Button type="button" variant="contained" size="large" onClick={() => setOpen(true)}>
-          {message}
+          Continue With
         </Button>
       )}
       {connectedUser && (
