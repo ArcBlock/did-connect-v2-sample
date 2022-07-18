@@ -1329,17 +1329,17 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
-"@did-connect/react@^2.0.12":
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/@did-connect/react/-/react-2.0.12.tgz#2a8481dc081b18ef336dd76364d2072348fdd80d"
-  integrity sha512-xFXBKAbRqdt7DUk2Fr/sf/hDbKv8T/4/5L5nRRwGOdUd+hFBwzym1WV0pNGzQlyR7o72Jbw0FrEh2oO6E4hmNQ==
+"@did-connect/react@^2.0.13":
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/@did-connect/react/-/react-2.0.13.tgz#c8db44976337fa3334af9004b25e4c11f226ca3f"
+  integrity sha512-l22trYEZ56jov+USdOgfMjDPsTWZuzVVuEzslG7ORRdPjhFzF0XMO/3FHIKUITEU07/MzcJFTc7oAMR6brsAtw==
   dependencies:
     "@arcblock/did-motif" "^1.1.10"
     "@arcblock/icons" "^2.1.59"
     "@arcblock/react-hooks" "^2.1.59"
     "@arcblock/ux" "^2.1.59"
-    "@did-connect/state" "2.0.12"
-    "@did-connect/types" "2.0.12"
+    "@did-connect/state" "2.0.13"
+    "@did-connect/types" "2.0.13"
     "@fontsource/lato" "^4.5.3"
     "@fontsource/ubuntu-mono" "^4.4.5"
     "@mui/icons-material" "^5.8.2"
@@ -1362,14 +1362,14 @@
     url-join "4.x"
     xstate "^4.32.1"
 
-"@did-connect/state@2.0.12":
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/@did-connect/state/-/state-2.0.12.tgz#50e599993b784417ef263b300ed87e9ac9e63766"
-  integrity sha512-8JJFNdFK0m769NjpSRL1bWlgJR3xdIhIRmHQj1/9sXbTJ5VkxhNCxCO7egEtUVX5mjIekP5tLMqvqyiRDHKGbQ==
+"@did-connect/state@2.0.13":
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/@did-connect/state/-/state-2.0.13.tgz#a47b505a6d949ef702d3bd3251123a249980e0cd"
+  integrity sha512-37COL8KoMSGufuPfXZTQvGTLURofu/WOawZqCZkY/wvihrRF/SW//8rVMdC/w+NAi7dYNeZZm7CjzeFcJjSfxg==
   dependencies:
     "@arcblock/jwt" "^1.17.5"
     "@arcblock/ws" "^1.17.5"
-    "@did-connect/types" "2.0.12"
+    "@did-connect/types" "2.0.13"
     "@ocap/util" "^1.17.5"
     "@ocap/wallet" "^1.17.5"
     axios "^0.27.2"
@@ -1382,10 +1382,10 @@
     url-join "^4.0.1"
     xstate "^4.32.1"
 
-"@did-connect/types@2.0.12":
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/@did-connect/types/-/types-2.0.12.tgz#4292041e256e156a1e9c995f55ddb4c1984d9ee2"
-  integrity sha512-Sbc9M0B/EmXa8Tcv7/EqKrtdmgc9XiRCiWOGS9NN45HOfZnphm/UFWORmVapHsu/hXfOKFMtLZJpW7FB61Oz3Q==
+"@did-connect/types@2.0.13":
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/@did-connect/types/-/types-2.0.13.tgz#1502b31cb053ce9cdbc1cb2c76693378ae96b4d9"
+  integrity sha512-/MnBtPikG8nU5ewsPHEOvbyGrGXVjfBAgAl0FruCoFzEyKCX+zT2PmeGYa6MlhMmhhIghayUxoVOOsh739jj9g==
   dependencies:
     "@arcblock/validator" "^1.17.5"
     "@ocap/mcrypto" "^1.17.5"
