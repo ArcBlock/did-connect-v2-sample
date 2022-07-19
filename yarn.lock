@@ -63,10 +63,10 @@
     amp-message "~0.1.1"
     axon "^2.0.3"
 
-"@arcblock/icons@^2.1.59":
-  version "2.1.59"
-  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-2.1.59.tgz#f894658dda49ef36fc5e26a60d671d4b83235942"
-  integrity sha512-847xmq/s2NOKK1lf1QYd2BCfiAmSZ0VF4duVZNOlSE6AnKBeW7VvdtP+LsAi1FNKuCKX4uaXK5jFiVsQI/ZS1g==
+"@arcblock/icons@^2.1.63":
+  version "2.1.63"
+  resolved "https://registry.yarnpkg.com/@arcblock/icons/-/icons-2.1.63.tgz#3ffddda7bea7ad3b36a7158e285ee2c9db93b761"
+  integrity sha512-Uhubv9cj8n5k8srqwygLyD0EMynPeHn3J5Uv/UxeYj6aA+hRJqyPLsswMZmH4QNBZvYtrFrb6Yrttcf1gMuGig==
 
 "@arcblock/jwt@1.17.5", "@arcblock/jwt@^1.17.5":
   version "1.17.5"
@@ -80,22 +80,22 @@
     json-stable-stringify "^1.0.1"
     semver "^7.3.4"
 
-"@arcblock/react-hooks@^2.1.59":
-  version "2.1.59"
-  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-2.1.59.tgz#7132eae0ea8775a216421def2f0e665641707af4"
-  integrity sha512-NVW1QcmgJpaY9gz5dMinA+YJ1Bwrzaqw1p2vBzkYH8TDr6hibz5rwcWoqaIqmX7Ueh3xVh8SZpBjRyJW/XMeZg==
+"@arcblock/react-hooks@^2.1.63":
+  version "2.1.63"
+  resolved "https://registry.yarnpkg.com/@arcblock/react-hooks/-/react-hooks-2.1.63.tgz#d30d7da41c417fb375f51b8b189decb7d5f27ead"
+  integrity sha512-jimpa0mAr0KnmJ3q1xqBBxnl3v/xbkB/5CqR/9gP2kIRuRqVmgb5KAwMCFnzN2BuVO7jzWPiM0ODUZ7T+WPpsQ==
   dependencies:
     core-js "^3.6.4"
     event-target-shim "^5.0.1"
     ismobilejs "^1.0.3"
 
-"@arcblock/ux@^2.1.59":
-  version "2.1.59"
-  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-2.1.59.tgz#1b0b8db44b1673605fdecfd271998a073b337fc5"
-  integrity sha512-cAPpIRpCJChqSoeML9DnHLK3bLzqhDqOd2sUZDAYo3Gc5Jb0aR2jVRBVuF1rL0b+SF7/UMbV2Tup/IL4+q4/TQ==
+"@arcblock/ux@^2.1.63":
+  version "2.1.63"
+  resolved "https://registry.yarnpkg.com/@arcblock/ux/-/ux-2.1.63.tgz#fb08a61d88c385fda55afdf5417e923dee013262"
+  integrity sha512-odVZ8QuDMsX+5xpmiY3/nxlowf+1z2m554WKENe0tfJA038vr/De1PUvk5ZMif/ISZMVT91B88IhL3J+PHhafg==
   dependencies:
-    "@arcblock/icons" "^2.1.59"
-    "@arcblock/react-hooks" "^2.1.59"
+    "@arcblock/icons" "^2.1.63"
+    "@arcblock/react-hooks" "^2.1.63"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
     "@emotion/react" "^11.9.0"
     "@emotion/styled" "^11.8.1"
@@ -130,9 +130,6 @@
     styled-components "^5.0.0"
     topojson-client "^3.0.0"
     versor "^0.0.4"
-    xterm "4.1.0"
-    xterm-addon-fit "^0.2.1"
-    xterm-addon-web-links "^0.2.1"
 
 "@arcblock/validator@^1.17.5":
   version "1.17.5"
@@ -1329,17 +1326,17 @@
   resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz#1bfafe4b7ed0f3e4105837e056e0a89b108ebe36"
   integrity sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg==
 
-"@did-connect/react@^2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@did-connect/react/-/react-2.0.13.tgz#c8db44976337fa3334af9004b25e4c11f226ca3f"
-  integrity sha512-l22trYEZ56jov+USdOgfMjDPsTWZuzVVuEzslG7ORRdPjhFzF0XMO/3FHIKUITEU07/MzcJFTc7oAMR6brsAtw==
+"@did-connect/react@^2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@did-connect/react/-/react-2.0.15.tgz#492e8c6abbd5a5af405df54d999872661ce95252"
+  integrity sha512-gZMJd5dAsEYnun4nxJMiX5/eo3OMqNI0h3wRxGkb0dMny8fEVjv/m/FvSYkHmhs1lLeRmjbPswEUh0Uygv64LA==
   dependencies:
     "@arcblock/did-motif" "^1.1.10"
-    "@arcblock/icons" "^2.1.59"
-    "@arcblock/react-hooks" "^2.1.59"
-    "@arcblock/ux" "^2.1.59"
-    "@did-connect/state" "2.0.13"
-    "@did-connect/types" "2.0.13"
+    "@arcblock/icons" "^2.1.63"
+    "@arcblock/react-hooks" "^2.1.63"
+    "@arcblock/ux" "^2.1.63"
+    "@did-connect/state" "2.0.15"
+    "@did-connect/types" "2.0.15"
     "@fontsource/lato" "^4.5.3"
     "@fontsource/ubuntu-mono" "^4.4.5"
     "@mui/icons-material" "^5.8.2"
@@ -1362,14 +1359,14 @@
     url-join "4.x"
     xstate "^4.32.1"
 
-"@did-connect/state@2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@did-connect/state/-/state-2.0.13.tgz#a47b505a6d949ef702d3bd3251123a249980e0cd"
-  integrity sha512-37COL8KoMSGufuPfXZTQvGTLURofu/WOawZqCZkY/wvihrRF/SW//8rVMdC/w+NAi7dYNeZZm7CjzeFcJjSfxg==
+"@did-connect/state@2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@did-connect/state/-/state-2.0.15.tgz#f2ba862896595b54e307b7dc15127dcd03d97e57"
+  integrity sha512-z6s+xmY+L+yyjGqW/ZcCxarQHtw8sMcM65x/nYfql3YOR+YEzTnkSs9SJipHwjvjGy3NRCLD4E6Fayur/kagQQ==
   dependencies:
     "@arcblock/jwt" "^1.17.5"
     "@arcblock/ws" "^1.17.5"
-    "@did-connect/types" "2.0.13"
+    "@did-connect/types" "2.0.15"
     "@ocap/util" "^1.17.5"
     "@ocap/wallet" "^1.17.5"
     axios "^0.27.2"
@@ -1382,10 +1379,10 @@
     url-join "^4.0.1"
     xstate "^4.32.1"
 
-"@did-connect/types@2.0.13":
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/@did-connect/types/-/types-2.0.13.tgz#1502b31cb053ce9cdbc1cb2c76693378ae96b4d9"
-  integrity sha512-/MnBtPikG8nU5ewsPHEOvbyGrGXVjfBAgAl0FruCoFzEyKCX+zT2PmeGYa6MlhMmhhIghayUxoVOOsh739jj9g==
+"@did-connect/types@2.0.15":
+  version "2.0.15"
+  resolved "https://registry.yarnpkg.com/@did-connect/types/-/types-2.0.15.tgz#37b41d5c32062630c83dad894b3349dbf7d4dbb6"
+  integrity sha512-C3bZSIbsePKu62TMxodc4zbP05ICl8DNddgjLtVrOYoxRHpIjTiuP+iki7vvL/f4/pp7eHGh71v4jybXtnNDhQ==
   dependencies:
     "@arcblock/validator" "^1.17.5"
     "@ocap/mcrypto" "^1.17.5"
@@ -10884,6 +10881,11 @@ url-join@4.x, url-join@^4.0.1:
   resolved "https://registry.yarnpkg.com/url-join/-/url-join-4.0.1.tgz#b642e21a2646808ffa178c4c5fda39844e12cde7"
   integrity sha512-jk1+QP6ZJqyOiuEI9AEWQfju/nB2Pw466kbA0LEZljHwKeMgd9WrAEgEGxjPDD2+TNbbb37rTyhEfrCXfuKXnA==
 
+url-join@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/url-join/-/url-join-5.0.0.tgz#c2f1e5cbd95fa91082a93b58a1f42fecb4bdbcf1"
+  integrity sha512-n2huDr9h9yzd6exQVnH/jU5mr+Pfx08LRXXZhkLLetAMESRj+anQsTAh940iMrIetKAmry9coFuZQ2jY8/p3WA==
+
 url-set-query@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/url-set-query/-/url-set-query-1.0.0.tgz#016e8cfd7c20ee05cafe7795e892bd0702faa339"
@@ -11515,21 +11517,6 @@ xtend@^4.0.0, xtend@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
-
-xterm-addon-fit@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/xterm-addon-fit/-/xterm-addon-fit-0.2.1.tgz#353f43921eb78e3f9ad3f3afbb14e7ac183ca738"
-  integrity sha512-BlR57O3t1/bmVcnS81bn9ZnNf+GiGNbeXdNUKSBa9tKEwNUMcU3S+KFLIRv7rm1Ty0D5pMOu0vbz/RDorKRwKQ==
-
-xterm-addon-web-links@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/xterm-addon-web-links/-/xterm-addon-web-links-0.2.1.tgz#6d1f2ce613e09870badf17615e7a1170a31542b2"
-  integrity sha512-2KnHtiq0IG7hfwv3jw2/jQeH1RBk2d5CH4zvgwQe00rLofSJqSfgnJ7gwowxxpGHrpbPr6Lv4AmH/joaNw2+HQ==
-
-xterm@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/xterm/-/xterm-4.1.0.tgz#f6b6e127d1a1e31cef709b45fca845bf818602ce"
-  integrity sha512-RolKCONgwaEqt7FBMUeoxn4W/2JoopNi3nxfZDmQ6xwelCNCAAYNw4W97QenXefQyvholn5xMAsS0nnIwjwhHw==
 
 y18n@^5.0.5:
   version "5.0.8"
