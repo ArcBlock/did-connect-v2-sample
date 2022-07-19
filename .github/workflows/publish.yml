@@ -1,12 +1,12 @@
-name: Deploy
+name: Publish
 
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
-  Deploy:
+  blocklet:
     runs-on: ubuntu-latest
 
     if: "! contains(toJSON(github.event.commits.*.message), '[skip ci]')"
